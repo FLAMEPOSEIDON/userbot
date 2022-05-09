@@ -1,6 +1,6 @@
 {
   "name": "Usebot",
-  "description": "Use if u want"
+  "description": "Use if u want",
   "logo": "https://i.imgur.com/69w94F4.jpg",
   "keywords": [
     "telegram",
@@ -20,36 +20,12 @@
       "description": "Get this value from my.telegram.org.",
       "required": true
     },
-    "DATABASE_URL": {
-            "description": "Your MongoDB Atlas URL, Get your guide from https://telegra.ph/Mongo-DB-12-24.",
-            "required": false
-    },
     "SESSION_STRING": {
-            "description": "Get this from - https://replit.com/@NotShroudX97/HyperGenX ",
-            "required": true
-  },
-  "addons": [
-    {
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "12"
-      }
+      "description": "Get this from - https://replit.com/@NotShroudX97/HyperGenX ",
+      "required": true
     }
-  ],"buildpacks": [{
+  },
+  "buildpacks": [{
     "url": "https://github.com/heroku/heroku-buildpack-python.git"
-  }, {
-    "url": "https://github.com/heroku/heroku-buildpack-redis"
-  }, {
-    "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
-  }, {
-    "url": "https://github.com/HasibulKabir/heroku-buildpack-rarlab"
-  },{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }, {
-    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
-  }, {
-    "url": "https://github.com/amivin/aria2-heroku"
-  }, {
-    "url": "https://github.com/stevo550/buildpack-slug-cleaner"
   }]
 }
